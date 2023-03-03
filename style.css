@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.temp{
+    width: 30vw;
+    height: 70vh;
+    padding: 1% 5%;
+    border-radius: 10px;
+    background-color:rgba(235, 120, 225, 0.589);
+    box-shadow: inset 60px 40px 100px rebeccapurple;
+}
+.temp h2{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 200;
+    font-style: italic;
+}
+input{
+    width: 100%;
+    padding: 0 10px;
+    height: 50px;
+    font-size: 20px;
+    font-family: gilroy;
+    font-style: italic;
+}
+h3{
+    font-size: 29px;
+    text-transform: capitalize;
+}
+.check{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: space-evenly;
+}
+.check>input{
+    width: 30px;
+    height: 30px;
+}
+.tempera{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+.convertor{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    font-size: 20px;
+    padding:8px 12px;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: inset 0px -40px 20px rebeccapurple;
+}
